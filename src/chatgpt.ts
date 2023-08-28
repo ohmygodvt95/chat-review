@@ -24,7 +24,7 @@ export default class ChatGPT {
         max_tokens: 1000,
       },
     });
-    this.language = config.language || 'Chinese';
+    this.language = config.language || 'Vietnamese';
   }
 
   private generatePrompt = (patch: string) => {

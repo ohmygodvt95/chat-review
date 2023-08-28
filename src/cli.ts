@@ -23,7 +23,7 @@ cli
     default: 'gpt-3.5-turbo',
   })
   .option('--language <language>', 'chatgpt language', {
-    default: 'Chinese',
+    default: 'Vietnamese',
   })
   .option('--host <host>', 'gitlab host', {
     default: 'https://gitlab.com',
