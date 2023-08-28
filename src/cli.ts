@@ -32,7 +32,7 @@ cli
     default: 'https://api.openai.com',
   })
   .option('--target [target]', 'review files', {
-    default: /\.(j|t)sx?$/,
+    default: /\.(php|js|ts|java|go|md|rb|py)$/,
   })
   .action(
     async (options: {
