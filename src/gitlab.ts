@@ -123,9 +123,9 @@ export default class Gitlab {
           new_line: newLine,
           old_path: oldPath,
           // fix
-          // {
-          //   "message": "400 (Bad request) \"Note {:line_code=>[\"can't be blank\", \"must be a valid line code\"]}\" not given"
-          // }
+          {
+            "message": "400 (Bad request) \"Note {:line_code=>[\"can't be blank\", \"must be a valid line code\"]}\" not given"
+          }
           old_line: null,
         },
       })
